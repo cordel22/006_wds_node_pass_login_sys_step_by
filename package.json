@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "ejs": "^3.1.8",
     "express": "^4.16.4",
     "netlify-lambda": "^1.4.3",
     "serverless-http": "^1.9.1"
   },
-  "devDependencies": {},
   "scripts": {
     "start": "NODE_ENV=development ./node_modules/.bin/netlify-lambda serve src",
     "build": "NODE_ENV=production ./node_modules/.bin/netlify-lambda build src"
@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/owenconti/netlify-express/issues"
   },
-  "homepage": "https://github.com/owenconti/netlify-express#readme"
+  "homepage": "https://github.com/owenconti/netlify-express#readme",
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20"
+  }
 }
