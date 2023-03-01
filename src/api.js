@@ -3,15 +3,15 @@ const serverless = require("serverless-http");
 
 const app = express();
 const router = express.Router();
-
-app.set('view-engine', 'ejs')
+//		this doesnt work:(
+//	app.set('view-engine', 'ejs')
 
 router.get("/", (req, res) => {
-	/*
+
   res.json({
-    hello: "no dvstart .env ma niggaz!"
-  });	*/
-  res.render('./views/index.ejs')
+    hello: "figgure out views next ma niggaz!"
+  });	/*	this doesnt work:(
+  res.render('./views/index.ejs')	*/
 });
 
 app.use(`/.netlify/functions/api`, router);
