@@ -6,7 +6,7 @@ const router = express.Router();
 
 router.get("/", (req, res) => {
   res.json({
-    hello: "dvstart .env ma niggaz!"
+    hello: "no dvstart .env ma niggaz!"
   });
 });
 
