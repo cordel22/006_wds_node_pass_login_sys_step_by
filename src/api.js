@@ -11,7 +11,7 @@ router.get("/", (req, res) => {
   res.json({
     hello: "no dvstart .env ma niggaz!"
   });	*/
-  res.render('index.ejs')
+  res.render('./views/index.ejs')
 });
 
 app.use(`/.netlify/functions/api`, router);
