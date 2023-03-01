@@ -5,11 +5,11 @@ const app = express();
 const router = express.Router();
 
 router.get("/", (req, res) => {
-	/*
+
   res.json({
     hello: "no dvstart .env ma niggaz!"
-  });	*/
-  res.render('index.ejs')
+  });	/*
+  res.render('index.ejs')	*/
 });
 
 app.use(`/.netlify/functions/api`, router);
