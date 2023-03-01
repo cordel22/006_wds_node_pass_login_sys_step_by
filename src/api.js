@@ -6,7 +6,7 @@ const router = express.Router();
 
 router.get("/", (req, res) => {
   res.json({
-    hello: "dotenv ejs a shit ma niggaz!"
+    hello: "dvstart .env ma niggaz!"
   });
 });
 
