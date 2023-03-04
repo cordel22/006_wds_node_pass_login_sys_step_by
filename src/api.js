@@ -12,7 +12,7 @@ router.get("/", (req, res) => {
   res.json({
     hello: "figgure out views next ma niggaz!"
   });		this doesnt work:(	*/
-  res.render('./views/index.ejs')
+  res.render('index.ejs')
 });
 
 app.use(`/.netlify/functions/api`, router);
