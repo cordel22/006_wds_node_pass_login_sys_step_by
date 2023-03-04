@@ -5,7 +5,7 @@ const app = express();
 const router = express.Router();
 //		this doesnt work:(
 app.set("views", __dirname + "/views");
-app.set('view engine', 'ejs')
+app.set('view-engine', 'ejs')
 
 router.get("/", (req, res) => {
 /*
