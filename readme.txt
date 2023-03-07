@@ -15,4 +15,10 @@ https://www.youtube.com/watch?v=hQAu0YEIF0g
 
 no devStart into package.json i guess you need to launch
 
-doesnt build on netlify:(
+does build on netlify here
+
+https://endearing-pavlova-3262c2.netlify.app/.netlify/functions/api/
+
+https://app.netlify.com/sites/endearing-pavlova-3262c2/overview
+
+but dont know how to implement ejs views:(
